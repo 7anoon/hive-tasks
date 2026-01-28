@@ -1,0 +1,105 @@
+/* Dark Mode Styles */
+.dark-mode {
+  --gray-50: #1a1a1a;
+  --gray-100: #2d2d2d;
+  --gray-200: #404040;
+  --gray-300: #525252;
+  --gray-400: #737373;
+  --gray-500: #a3a3a3;
+  --gray-600: #d4d4d4;
+  --gray-700: #e5e5e5;
+  --gray-800: #f5f5f5;
+  --gray-900: #ffffff;
+}
+
+.dark-mode body {
+  background: #0f0f0f;
+  color: #ffffff;
+}
+
+.dark-mode .dashboard-container {
+  background: #0f0f0f;
+}
+
+.dark-mode .navbar {
+  background: rgba(26, 26, 26, 0.95);
+  border-bottom: 1px solid #2d2d2d;
+}
+
+.dark-mode .card {
+  background: #1a1a1a;
+  border: 1px solid #2d2d2d;
+}
+
+.dark-mode .project-card:hover {
+  background: #2d2d2d;
+  border-color: var(--primary);
+}
+
+.dark-mode .stat-box {
+  background: #1a1a1a;
+  border: 1px solid #2d2d2d;
+}
+
+.dark-mode .search-box {
+  background: #2d2d2d;
+  border-color: #404040;
+}
+
+.dark-mode .search-box:focus-within {
+  background: #1a1a1a;
+  border-color: var(--primary);
+}
+
+.dark-mode .filter-tab {
+  color: #a3a3a3;
+}
+
+.dark-mode .filter-tab:hover {
+  background: #2d2d2d;
+  color: #ffffff;
+}
+
+.dark-mode .filter-tab.active {
+  background: var(--primary);
+  color: white;
+}
+
+.dark-mode .modal-content {
+  background: #1a1a1a;
+  border: 1px solid #2d2d2d;
+}
+
+.dark-mode input,
+.dark-mode textarea,
+.dark-mode select {
+  background: #2d2d2d;
+  border-color: #404040;
+  color: #ffffff;
+}
+
+.dark-mode input:focus,
+.dark-mode textarea:focus,
+.dark-mode select:focus {
+  background: #1a1a1a;
+  border-color: var(--primary);
+}
+
+.dark-mode .empty-state {
+  color: #a3a3a3;
+}
+
+.dark-mode .admin-notes-card {
+  background: #2d2d2d;
+  border-color: #404040;
+}
+
+.dark-mode .delayed-alert {
+  background: rgba(239, 68, 68, 0.1);
+  border-color: #ef4444;
+}
+
+.dark-mode .search-sort-bar {
+  background: #1a1a1a;
+  border: 1px solid #2d2d2d;
+}
